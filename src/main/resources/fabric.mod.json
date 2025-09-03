@@ -1,0 +1,53 @@
+{
+	"schemaVersion": 1,
+	"id": "japi",
+	"version": "${version}",
+	"name": "Jacob API",
+	"description": "An API used for JacobG5's Mods.",
+	"authors": [
+      "JacobG5"
+	],
+	"contact": {
+      "homepage": "https://modrinth.com/user/JacobG5"
+	},
+	"license": "",
+	"icon": "assets/japi/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"jacobg5.japi.JacobAPI"
+		],
+		"client": [
+			"jacobg5.japi.JacobAPIClient"
+		],
+		"fabric-datagen": [
+			"jacobg5.japi.JacobAPIDataGenerator"
+		]
+	},
+	"mixins": [
+		"japi.mixins.json",
+		{
+			"config": "japi.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/MdRVdAY",
+        "modmenu.youtube": "https://www.youtube.com/channel/UC7dOTHsgHkZTTyYSyYYoQaQ"
+      },
+      "update_checker": true,
+      "badges": [ "library" ]
+    }
+  }
+}
