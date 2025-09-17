@@ -1,0 +1,7 @@
+{
+  "type": "japi:ignored_by",
+  "entity_condition": {
+    "type": "apoli:in_tag",
+    "tag": "minecraft:skeletons"
+  }
+}

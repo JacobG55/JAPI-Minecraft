@@ -1,0 +1,107 @@
+{
+  "type": "apoli:multiple",
+
+  "pickaxe": {
+    "type": "japi:prevent_block_break",
+    "block_condition": {
+      "type": "apoli:in_tag",
+      "tag": "minecraft:mineable/pickaxe"
+    },
+    "condition": {
+      "inverted": true,
+      "type": "apoli:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "minecraft:pickaxes"
+        }
+      }
+    }
+  },
+
+  "shovel": {
+    "type": "japi:prevent_block_break",
+    "block_condition": {
+      "type": "apoli:in_tag",
+      "tag": "minecraft:mineable/shovel"
+    },
+    "condition": {
+      "inverted": true,
+      "type": "apoli:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "minecraft:shovels"
+        }
+      }
+    }
+  },
+
+  "axe": {
+    "type": "japi:prevent_block_break",
+    "block_condition": {
+      "type": "apoli:in_tag",
+      "tag": "minecraft:mineable/axe"
+    },
+    "condition": {
+      "inverted": true,
+      "type": "apoli:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "minecraft:axes"
+        }
+      }
+    }
+  },
+
+  "hoe": {
+    "type": "japi:prevent_block_break",
+    "block_condition": {
+      "type": "apoli:in_tag",
+      "tag": "minecraft:mineable/hoe"
+    },
+    "condition": {
+      "inverted": true,
+      "type": "apoli:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "minecraft:hoes"
+        }
+      }
+    }
+  },
+
+  "shears": {
+    "type": "japi:prevent_block_break",
+    "block_condition": {
+      "type": "apoli:any_of",
+      "conditions": [
+        {
+          "type": "apoli:in_tag",
+          "tag": "minecraft:wool"
+        },
+        {
+          "type": "apoli:in_tag",
+          "tag": "minecraft:wool_carpets"
+        }
+      ]
+    },
+    "condition": {
+      "inverted": true,
+      "type": "apoli:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "c:tools/shears"
+        }
+      }
+    }
+  }
+}

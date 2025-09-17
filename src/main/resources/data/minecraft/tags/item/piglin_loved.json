@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#japi:piglin_barter_item",
+    "#japi:piglin_friendly_equipment"
+  ]
+}

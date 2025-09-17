@@ -15,13 +15,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"jacobg5.japi.JacobAPI"
+			"jacobg5.japi.JAPI"
 		],
 		"client": [
-			"jacobg5.japi.JacobAPIClient"
+			"jacobg5.japi.JAPIClient"
 		],
 		"fabric-datagen": [
-			"jacobg5.japi.JacobAPIDataGenerator"
+			"jacobg5.japi.JDataGen"
 		]
 	},
 	"mixins": [
@@ -33,7 +33,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.21.8",
+		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
@@ -44,7 +44,7 @@
     "modmenu": {
       "links": {
         "modmenu.discord": "https://discord.gg/MdRVdAY",
-        "modmenu.youtube": "https://www.youtube.com/channel/UC7dOTHsgHkZTTyYSyYYoQaQ"
+        "modmenu.youtube": "https://www.youtube.com/@Jacob-DT"
       },
       "update_checker": true,
       "badges": [ "library" ]

@@ -1,3 +1,55 @@
 {
-  "japi.debug_groups.button": "JAPI Debug Tabs: %1$s"
+  "japi.midnightconfig.title": "JAPI Config",
+  "japi.midnightconfig.category.developer": "Developer Options",
+  "japi.midnightconfig.logDebug": "Debug Logging",
+  "japi.midnightconfig.logDebug.tooltip": "Enables extra logging for this mod and it's dependencies.",
+  "japi.midnightconfig.createModTabs": "Creative Mod Tabs",
+  "japi.midnightconfig.createModTabs.tooltip": "Adds new tabs to the creative inventory for each mod registering through this API.",
+
+  "japi.debug_groups.button": "JAPI Debug Tabs: %1$s",
+
+  "japi.item.component.tooltip": "Inflicts on Target:",
+
+  "tag.item.japi.bows": "Bows",
+  "tag.item.japi.carved_pumpkins": "Carved Pumpkins",
+  "tag.item.japi.conductive_equipment": "Conductive Equipment",
+  "tag.item.japi.crossbows": "Crossbows",
+  "tag.item.japi.fireproof": "Fireproof",
+  "tag.item.japi.nuggets": "Nuggets",
+  "tag.item.japi.piglin_barter_item": "Piglin Bartering Items",
+  "tag.item.japi.piglin_friendly_equipment": "Piglin Friendly Equipment",
+  "tag.item.japi.upgrade_template": "Upgrade Template",
+
+  "tag.block.japi.carved_pumpkins": "Carved Pumpkins",
+  "tag.block.japi.adventure_breakable": "Adventure Breakable Blocks",
+  "tag.block.japi.indestructible": "Indestructible Blocks",
+  "tag.block.japi.blast_proof": "Blast Proof Blocks",
+  "tag.block.japi.fragile": "Fragile Blocks",
+
+  "tag.damage_type.japi.is_game_design": "Is Game Design",
+
+  "power.japi.piglin_accepted.name": "Piglin Accepted",
+  "power.japi.piglin_accepted.description": "Piglins are neutral towards you as if you were wearing golden armor.",
+
+  "power.japi.zombie_ignored.name": "Zombie Accepted",
+  "power.japi.zombie_ignored.description": "Zombies see you as their own and will not target you unless provoked.",
+
+  "power.japi.all_ignored.name": "Friend of All",
+  "power.japi.all_ignored.description": "No enemies will attack you even if you attack them.",
+
+  "power.japi.enemy_of_all.name": "Enemy of All",
+  "power.japi.enemy_of_all.description": "All mobs are naturally aggressive towards you.",
+
+  "power.japi.require_correct_tools.name": "Require Correct Tools",
+  "power.japi.require_correct_tools.description": "Prevents the player from mining blocks unless they use the correct tool",
+  "power.japi.require_correct_tools_pickaxe.name": "Require Correct Tools (Pickaxe)",
+  "power.japi.require_correct_tools_pickaxe.description": "Prevents the player from mining blocks unless they use the correct tool",
+  "power.japi.require_correct_tools_shovel.name": "Require Correct Tools (Shovel)",
+  "power.japi.require_correct_tools_shovel.description": "Prevents the player from mining blocks unless they use the correct tool",
+  "power.japi.require_correct_tools_axe.name": "Require Correct Tools (Axe)",
+  "power.japi.require_correct_tools_axe.description": "Prevents the player from mining blocks unless they use the correct tool",
+  "power.japi.require_correct_tools_hoe.name": "Require Correct Tools (Hoe)",
+  "power.japi.require_correct_tools_hoe.description": "Prevents the player from mining blocks unless they use the correct tool",
+  "power.japi.require_correct_tools_shears.name": "Require Correct Tools (Shears)",
+  "power.japi.require_correct_tools_shears.description": "Prevents the player from mining blocks unless they use the correct tool"
 }

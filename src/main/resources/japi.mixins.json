@@ -1,14 +1,31 @@
 {
-	"required": true,
-	"package": "jacobg5.japi.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
+  "required": true,
+  "package": "jacobg5.japi.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ActiveTargetGoalMixin",
+    "AxeItemMixin",
+    "BlockEntityTypeMixin",
+    "EntityMixin",
+    "ExplosionBehaviorMixin",
+    "HoeItemMixin",
+    "ItemEntityMixin",
+    "ItemGroupMixin",
+    "ItemMixin",
+    "ItemStackMixin",
+    "MobEntityMixin",
+    "PiglinBrainMixin",
+    "PlayerEntityMixin",
+    "RevengeGoalMixin",
+    "ShovelItemMixin",
+    "SmithingTemplateItemMixin",
+    "StatusEffectMixin",
+    "TargetPredicateAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
 	}
 }
